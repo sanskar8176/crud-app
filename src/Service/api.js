@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const usersUrl = 'http://localhost:8080';
+// const usersUrl = 'http://localhost:8080';
+const usersUrl = 'https://crud-app-api.onrender.com/';
 
 export const getUsers = async (id) => {
     id = id || '';
